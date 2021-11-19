@@ -1,0 +1,53 @@
+// Card Element Classes
+.line {
+  background: $darkBlueLine;
+  height: 1px;
+  margin: 15px 0px;
+}
+// Card Classes
+.card-container {
+  background: $darkBlueCard;
+  width: 400px;
+  border-radius: 15px;
+  margin: 100px auto;
+  padding: 30px;
+}
+
+.card-image {
+  border-radius: inherit;
+  margin-bottom: 20px;
+
+  img {
+    width: 100%;
+    border-radius: inherit;
+  }
+}
+
+.card-name {
+  font-weight: 500;
+  line-height: 0;
+}
+
+.card-description {
+  color: $softBlue;
+  line-height: 2em;
+  margin: 0px;
+}
+
+.card-info {
+  line-height: 0em;
+  img {
+    margin-right: 12px;
+  }
+}
+
+.card-creator {
+  
+  img {
+    margin-right: 15px;
+    border: solid 1px white;
+    border-radius: 100%;
+    width: 35px;
+    height: 35px;
+  }
+}

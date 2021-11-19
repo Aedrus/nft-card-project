@@ -1,0 +1,15 @@
+// Grid
+.grid {
+  display: grid;
+
+  &-gtc-1 {
+    grid-template-columns: 1fr;
+  }
+  &-gtc-2 {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  &-gtr-2 {
+    grid-template-rows: 1fr 1fr;
+  }
+}

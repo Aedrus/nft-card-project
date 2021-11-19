@@ -1,0 +1,14 @@
+// Mobile
+@mixin sm {
+  @media (min-width: #{$screen-sm-min}) {
+    @content;
+  }
+
+}
+// Desktop
+@mixin large {
+  @media (min-width: #{$screen-large-min}) {
+    @content;
+  }
+
+}

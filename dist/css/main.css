@@ -1,0 +1,189 @@
+.cyan {
+  color: #00fff7;
+}
+
+.soft-blue {
+  color: #8bacda;
+}
+
+*, *::before, *:after {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font: 100%;
+}
+
+body {
+  background: #0d192b;
+  color: white;
+  font-family: 'Outfit', sans-serif;
+  line-height: 12px;
+}
+
+@media (min-width: 375px) {
+  body {
+    background: #0d192b;
+  }
+}
+
+@media (min-width: 1440px) {
+  body {
+    background: #0d192b;
+  }
+}
+
+p, p:before, p:after {
+  font-weight: 300;
+  font-size: 18px;
+}
+
+.line {
+  background: #2f415b;
+  height: 1px;
+  margin: 15px 0px;
+}
+
+.card-container {
+  background: #14253d;
+  width: 400px;
+  border-radius: 15px;
+  margin: 100px auto;
+  padding: 30px;
+}
+
+.card-image {
+  border-radius: inherit;
+  margin-bottom: 20px;
+}
+
+.card-image img {
+  width: 100%;
+  border-radius: inherit;
+}
+
+.card-name {
+  font-weight: 500;
+  line-height: 0;
+}
+
+.card-description {
+  color: #8bacda;
+  line-height: 2em;
+  margin: 0px;
+}
+
+.card-info {
+  line-height: 0em;
+}
+
+.card-info img {
+  margin-right: 12px;
+}
+
+.card-creator img {
+  margin-right: 15px;
+  border: solid 1px white;
+  border-radius: 100%;
+  width: 35px;
+  height: 35px;
+}
+
+.grid {
+  display: -ms-grid;
+  display: grid;
+}
+
+.grid-gtc-1 {
+  -ms-grid-columns: 1fr;
+      grid-template-columns: 1fr;
+}
+
+.grid-gtc-2 {
+  -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
+}
+
+.grid-gtr-2 {
+  -ms-grid-rows: 1fr 1fr;
+      grid-template-rows: 1fr 1fr;
+}
+
+.flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 0px;
+}
+
+.flex-row {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.flex-col {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.flex-jc-s {
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
+}
+
+.flex-jc-e {
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: end;
+}
+
+.flex-jc-c {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.flex-jc-sa {
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.flex-jc-sb {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.flex-jc-se {
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.flex-ai-s {
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+.flex-ai-e {
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+
+.flex-ai-c {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.flex-ai-b {
+  -webkit-box-align: baseline;
+      -ms-flex-align: baseline;
+          align-items: baseline;
+}
+/*# sourceMappingURL=main.css.map */
